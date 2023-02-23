@@ -69,6 +69,9 @@ local myMod = VK_F13
 	
 	Layout codes can be found at
 	https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-language-pack-default-values
+
+	Virtual-key codes can be found at
+	https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
 ]]
 local function addModSendRu(key, lower, upper)
 	for i = 0, 1 do
